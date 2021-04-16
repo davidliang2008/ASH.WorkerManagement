@@ -4,4 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ASH.WorkerManagement.Domain.SharedKernel\ASH.WorkerManagement.Domain.SharedKernel.csproj" />
+  </ItemGroup>
+
 </Project>
