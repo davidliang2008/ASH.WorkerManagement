@@ -15,6 +15,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D6CF3814
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASH.WorkerManagement.Domain.UnitTests", "tests\ASH.WorkerManagement.Domain.UnitTests\ASH.WorkerManagement.Domain.UnitTests.csproj", "{1E237EB5-CE99-4587-A33A-865DD8AA714F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D590BCC0-C952-4374-BE38-C2433AF7820A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "screenshots", "screenshots", "{6725C22B-1BD0-4F19-B920-44B961FF1BA4}"
+	ProjectSection(SolutionItems) = preProject
+		screenshots\database-diagram-simple.png = screenshots\database-diagram-simple.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASH.WorkerManagement.Infrastructure.Persistence.EFCore", "src\ASH.WorkerManagement.Infrastructure.Persistence.EFCore\ASH.WorkerManagement.Infrastructure.Persistence.EFCore.csproj", "{48B61D48-03EE-42E3-BB78-7E5E8752CE7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +49,10 @@ Global
 		{1E237EB5-CE99-4587-A33A-865DD8AA714F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E237EB5-CE99-4587-A33A-865DD8AA714F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E237EB5-CE99-4587-A33A-865DD8AA714F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B61D48-03EE-42E3-BB78-7E5E8752CE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B61D48-03EE-42E3-BB78-7E5E8752CE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B61D48-03EE-42E3-BB78-7E5E8752CE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B61D48-03EE-42E3-BB78-7E5E8752CE7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +62,7 @@ Global
 		{826BF139-17F8-4CCA-9659-134BD8F0D644} = {91C02E3F-4D3B-43A3-A60D-C663B5F49406}
 		{EB28E3D1-889B-4D58-B061-688F8137C546} = {91C02E3F-4D3B-43A3-A60D-C663B5F49406}
 		{1E237EB5-CE99-4587-A33A-865DD8AA714F} = {D6CF3814-2F33-4E63-A65A-2163A8B24BD6}
+		{48B61D48-03EE-42E3-BB78-7E5E8752CE7C} = {91C02E3F-4D3B-43A3-A60D-C663B5F49406}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E380FFE8-1563-4817-9DAA-8782F5C7CAAF}
